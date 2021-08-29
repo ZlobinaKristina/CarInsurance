@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.assertEquals;
 
-public class TestCarInsurance { //проверка Jenkinsa
+public class TestCarInsurance { //проверка Jenkinsa11
     @Test
     public void InsurancePositive () {
         assertEquals(210, CarInsurance.CountInsurance(0.5,0, 25));
