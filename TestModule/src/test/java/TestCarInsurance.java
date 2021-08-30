@@ -1,7 +1,6 @@
+import org.junit.jupiter.api.Test;
 
-import org.testng.annotations.Test;
-
-import static org.testng.AssertJUnit.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestCarInsurance { //проверка Jenkinsa11
     @Test
