@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestCarInsurance" time="0.051" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestCarInsurance" time="0.056" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\User\Desktop\jdk-11.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire7290286748398492025\surefirebooter7334193344837724184.jar C:\Users\User\AppData\Local\Temp\surefire7290286748398492025 2021-08-30T16-23-58_025-jvmRun1 surefire6386612182155110175tmp surefire_07171364157299093680tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire16947797262014719723\surefirebooter15325726675022307673.jar C:\Users\User\AppData\Local\Temp\surefire16947797262014719723 2021-08-31T09-15-28_000-jvmRun1 surefire9449141944472492165tmp surefire_016117341020142269437tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\User\IdeaProjects\CarInsurance\TestModule\target\test-classes;C:\Users\User\IdeaProjects\CarInsurance\TestModule\target\classes;C:\Users\User\IdeaProjects\CarInsurance\BLModule\target\BLModule-1.0-SNAPSHOT.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire7290286748398492025\surefirebooter7334193344837724184.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire16947797262014719723\surefirebooter15325726675022307673.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="InsurancePositive" classname="TestCarInsurance" time="0.034">
+  <testcase name="InsurancePositive" classname="TestCarInsurance" time="0.04">
     <system-out><![CDATA[Your Insurance = 210
 Your Insurance = 210
 Your Insurance = 210
