@@ -12,7 +12,6 @@
         <module>BLModule</module>
         <module>TestModule</module>
     </modules>
-
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -20,30 +19,27 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     </properties>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId> <!-- для генерации отчётов-->
                 <version>3.0.0-M5</version>
-                <!--configuration>
+                <configuration>
                     <argLine>
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjweaver.version}/aspectjweaver-${aspectjweaver.version}.jar
                         -Xmx256m
                     </argLine>
                     <skipTests>false</skipTests>
-                </configuration!-->
+                </configuration>
             </plugin>
             <plugin>
-                <groupId>io.qameta.allure</groupId>
+                <groupId>io.qameta.allure</groupId>  <!-- для подключения allure-->
                 <artifactId>allure-maven</artifactId>
                 <version>2.10.0</version>
             </plugin>
-
-
             <plugin>
-                <groupId>org.jacoco</groupId>
+                <groupId>org.jacoco</groupId> <!-- для подключения jacoco и вывода code coverage-->
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.2</version>
                 <executions>
@@ -61,17 +57,8 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M3</version>
-            </plugin>
-
         </plugins>
     </build>
-
-
-
     <dependencies>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -83,13 +70,11 @@
             <artifactId>aspectjweaver</artifactId>
             <version>${aspectjweaver.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.7.2</version>
         </dependency>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -105,18 +90,6 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit5</artifactId>
             <version>2.13.6</version>
-
-        </dependency>
-
-        <dependency>
-            <!-- для использования тестов с параметрами  -->
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-params</artifactId>
-            <version>5.7.2</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
-
-
-
 </project>
